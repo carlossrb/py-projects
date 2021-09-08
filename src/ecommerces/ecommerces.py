@@ -4,4 +4,4 @@ from os.path import join, dirname
 
 customers: DataFrame = pd.read_csv(
     join(dirname(__file__), 'data', 'olist_customers_dataset.csv'))
-customers.head()
+print(customers.head())
