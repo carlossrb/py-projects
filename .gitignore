@@ -3,7 +3,7 @@ __pycache__/
 *$py.class
 
 # dataSources
-*.gen
+*.gen.csv
 # C extensions
 *.so
 
